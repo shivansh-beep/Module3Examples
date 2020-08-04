@@ -1,0 +1,194 @@
+
+
+	What is the need of Web-Applications?
+Company----> Develop a software for my organisation.    System Based/StandAlone software
+Company--->he wants to reach users across geographical locations for his exapnsion of business.
+A sofware which can be used throughout the globe for any geographical locations.
+A software has to be put some where  so that it can reach and be accessblie to everyone
+One-Media----------------->It connects all users throught a globe ----------------> an they are interconnected------> internet
+A software has to be put on an internet then only my software would be able to reach to all customers.
+Internet---is also know has a "Web"
+Application to be deveoped which can work or put on this "Web".
+Such software put on the Web ---- we term it has   " Web-Application".
+
+1.Web Application?
+An Application Developed by any Software language and which availbale globally to be used  by all users .
+Web Applications can developed by Jsdk(J2EE,JEE)...
+
+
+**************************
+
+2. Types of Web Application
+
+
+a) Static Web Applications
+Tejasvini---Customer: She needs a Webplication to be developed for our organisation ngo...
+Requirements:
+1. We dont want any data storage.
+2. Wwe want to adevrtise and reach the users throuhght the globe where my users can come to know about or organozation.
+3.10 Pages
+ A Collection of Web-Pages ---------WebApplication----->hosted on the web-----website
+
+prequiste to develop Static WebApplications
+w3
+1.Knowledge   of   (Html)  Added Knowldege---(css,javascript,bootstrap);
+
+
+
+b)Dynamic Web Application
+ A Collection of Web-Pages ---------WebApplication( Dynamic Programms which can interact with one another    )----->hosted on the web-----website
+Tejasvini---Customer: She needs a Webplication to be developed for our organisation ngo...
+Requirements:
+1.We want any data storage
+2. We want customers to fille they menersbhio details on web only
+3.Donations to our ngo should be avaialbe through the payment gateway
+2. Wwe want to adevrtise and reach the users throuhght the globe where my users can come to know about or organozation.
+3.10 Pages
+Bus Booking website,git hub
+
+
+How to develop Dynamic WebApplications?
+1. Servlets    (KNOW,LEARN,IMPLEMENT)
+2.JSP (KNOW,LEARN,IMPLEMENT)
+
+
+c)Enterpise Web Applications
+1. Servlets    (KNOW,LEARN,IMPLEMENT)
+2.JSP (KNOW,LEARN,IMPLEMENT)
+3.EJB,RMI,RMIIOP,JNDI,ORB
+
+   
+
+Web-Application Working?
+
+1. A web application is a collection of programmes written in Java using Servlets and Jsp
+
+JVM+JRE
+2.An these programmes require a software to execute these progrmmes  " Web-Server"
+
+		JVM+JRE+WEBSERVER
+
+
+3.WebApplication has to be put inside the Webserver to be used by users across the globle to access it
+
+	WebApplication<---------  deploy-------------->WebServer
+
+		
+1.  The process of building a Website
+
+Tejasvini---Customer: She needs a Webplication to be developed for our organisation ngo...
+Requirements:
+1.We want any data storage
+2. We want customers to fille they menersbhio details on web only
+3.Donations to our ngo should be avaialbe through the payment gateway
+2. Wwe want to adevrtise and reach the users throuhght the globe where my users can come to know about or organozation.
+3.10 Pages
+
+	eductiononline.org
+
+1. First thing  is to buy the domain from the isp provider,buy the space,if ur using db---buy...
+
+2.WebApplication----(Servlet,Jsp,Html)
+
+3.Install the Webserver
+
+4.Start writing the code using servlet,jspp..
+
+5.This code we should put it inside the webserver in a particular directory structure and check the working of individual programms
+
+6. WebServer ----- serves the request.
+
+7.  Then who takes care of execution and check weatger the programme is right or not?
+
+	Ans: Web Container,Container,ServletContainer-------------> this is the area wher the lifecyle of ur programms are managed
+		An these Programmes   are know has ---> Component/ Web Componet
+
+
+		Web-Server---->Webcontainer
+WebComponent ------->WebContainer
+
+
+
+8. To Test them we require a client software:
+
+Ans: Browser
+
+9. To make request to ur web componnet which are plcaed inside the webserver and executed by the componenet we require a client software ie browser
+
+10: From a browser to make a request to these components which are inside the webserver we nee to use a protocol "http"
+Why http?
+Because our webservers are desighned in such a way that they only recognize the request made by using http protocol
+client               -----------------http--request---------> webserver(     (webservrer memory) Container(componentt));                                
+	<-------------response-- http-----------------------
+
+		http was chosen has the mainstream protocol because over the web the request would for different type of data
+		(text,coluful,images,audio,video)
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.Tier Architecture
+5.MVC
+
+
+
+
+
+
+
