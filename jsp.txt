@@ -1,0 +1,75 @@
+Client-Side Programming language.
+These programes execute on the client -machine without requirin any web server
+
+
+
+
+
+
+JSP------------------Java Server Pages-----> Server-Side Programming  ----> Sun Microsystems
+Why JSP was developed to be introduced?
+
+
+1.Dynamic Web Pages.   
+	a.Any changes done to the code,should not rely on server-restart
+	b.Dynamic Presentation Layer
+
+
+	c.Presentation Logic should be separeted from business logic
+
+
+2. jsp do not require any entry within web.xml
+
+
+What are Jsp
+1.Jsp are also has compiled servlets:
+
+2. All Jsp files should be saved with an extension    ".jsp"
+
+(It means the jsp code will be converted internall by the jsp compiler into servlet code).
+
+Ex:  demo.jsp                  
+	
+	demo.jsp-------------->jsp compiler----------------converts this jsp code into java code and saves it in a file called
+	demo_jsp.java------------->next the javac  compiler----will compile the demo_jsp.java------>demo_jsp.class---->and this the
+	class file which will be executed and loaded by the JSP Container-----> and th out put is anothing but the execution of the class.	
+
+3. Lifecycle methods in jsp--->      _jspInit()   ,_jspService() _jspDestroy()
+Features of jsp
+
+1. jsp does not have any head and tail programing
+
+2. in a jsp we can use html,javascript,xml, and java coding.
+
+3.jsp files should be stord inside the root folder of ur webapplication.
+
+4. Jsp is a complete short hand programming.
+
+
+//  Combining Servlet and Jsp
+
+We can develop the application using MVC Design Pattern
+
+MVC1
+MVC2
+MVC3
+MVC4
+
+
+
+Model :  Business Logic      --(Java Beans)
+
+View: Presentaion (jsp)
+
+Controller:Application Logic                (servlet)
+
+
+
+
+
+
+
+
+
+
+

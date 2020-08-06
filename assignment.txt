@@ -1,84 +1,17 @@
 
 
 Asiignment
-1. Cretae    a table "userlogin"  with fields
+1. Html file    
 
-uname
-password
-emaia
+Trainee.html
 
-2. Cretae    a table "UserMaster"  with fields
-uid
-Firstname
-Lastname
-Desg
-Salary
-Dept--------------------->HR,ADMIN,Operations
+trainee name: amreah
+course:drop down box/ multiple box
+java,unix,oracle
 
+submit
 
-
-//MIS---------webapp
-
-1.create login for users
-CreateLogin.html
-
-uname:[]
-pass:[]
-email[];
-
-is html file should send data to a Servlet By  Name:           CreateUser
-
-			post()
-			{
-
-
-			}
-
-
-2.create  employee data
-CreateEmployee .html
-uid
-Firstname
-Lastame
-Desg
-Salary
-Dept--------------------->HR,ADMIN,Operations
-
-
-This html file should send data to a Servlet By  Name:           CreateEmployeeData
-
-			post()
-			{
-				//db related code
-
-
-			}
-
-
-
-3.update  employee data by his uid only desg updation should be allowed
-
-UpdateEmployee .html
-uid:101
-Desg:architect
-subiy
-
-This html file should send data to a Servlet By  Name:           UpdateEmployeeData
-			post
-				{
-				
-
-				}
-
-
-SessionTracking
-
-1.What is Session Tracking and Why Session Tracking?
-2.How to achivee Session Tracking in Servlet?
-3.Explain each Session Tracking?
-
-
-
-
-
-
+1. course.jsp should display the selected course from html file submit
+amresh
+u have selected the followwing [java,unix]
+			[unix]

@@ -1,0 +1,101 @@
+How to start written code in jsp?
+1. JSP   Tags
+Ther are 3 scripting tags.
+
+
+	<%
+			// scriptlet tag
+
+		//here any type of java code
+	%>
+
+
+
+
+	<%!  int a=10;String str="Java"; Employe e=null;%>  // declaration tag
+
+	<%=%> // expression tag to interpet the vakue
+
+
+1..	xml equivalents
+
+
+	<jsp:declaration> 	</jsp:declaration>
+	<jsp:expression> 	</jsp:expression>
+
+
+
+Implicit Objects in jsp:
+
+//JSP Container creates Objects for u behind the application
+out: JspWriter
+request: HttpServletRequest
+response: HttpServletResponse
+session:HttpSession
+exception: Throwable
+application: ServletContext
+
+config:ServletConfig
+page:Object
+page_context: PageContext
+
+
+ Directives in jsp:
+What are Directives?
+Directives in jsp are used to add addiontal functionalties to a jsp page.
+
+	1.page
+
+	2.include
+
+	3.taglib
+
+	How to import packages;
+	Ans: use page directive
+	How to use it?
+	Syntax
+	<%@ nameofthedirective attribite="" %>	
+
+List of attributes which are used with page directive
+
+	import: To import java related any packaege this attribute is used
+
+
+	extends :   
+
+	isErrorPage:
+	errorPage:
+
+
+
+
+
+
+	session
+	autoFlush
+	contentType="text/html"
+	encoding=""
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
