@@ -1,0 +1,39 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- <bean id="helloBean" class="BeanCode">
+		<property name="name" value="Mohammed" />
+		
+	</bean> -->
+
+<bean id="dcon" class="Employee">
+		
+		<!--
+		if only one constructor use the below
+ <constructor-arg  value="aaaa"/>
+		<constructor-arg  value="Shravya"/>
+		<constructor-arg  value="99"/>
+		-->
+
+<!-		if multiple  constructor use the below- -->
+
+
+		<!-- <constructor-arg index="2" value="aaaa"/>
+		<constructor-arg index="0" value="99"/>
+		<constructor-arg index="1" value="Shravya"/>
+			 -->
+		
+ <constructor-arg index="0" value="1989" type="int"/>
+		<constructor-arg index="1" value="99.77"  type="float" />
+		
+		
+		
+			</bean>
+
+
+
+
+</beans>
